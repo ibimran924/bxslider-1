@@ -1,0 +1,254 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+body{
+    font-family: 'SolaimanLipi', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.section-1 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.last-or-most-read-section {
+    width: 25%;
+}
+
+.alider-section {
+    width: 48%;
+}
+.last-of-news {
+    height: 500px;
+    overflow-y: scroll;
+}
+.last-of-news ul li {
+    text-decoration: none;
+}
+
+.last-of-news ul li a {
+    text-decoration: none;
+    background: red;
+    color: black;
+    padding: 5px 10px;
+    display: block;
+}.last-of-news ul li {
+    text-decoration: none;
+}
+
+
+
+.last-or-most-read-section h5 {
+    background: green;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.section-2 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.last-or-more-read-section-1 {
+    width: 25%;
+}
+
+.last-or-more-read-photo-1 {
+    width: 48%;
+}
+
+.last-of-news-1 {
+    height: 250px;
+    overflow-y: scroll;
+}
+.last-of-news-1 ul li {
+    list-style: none;
+}
+
+.last-of-news-1 ul li a {
+    font-size: 15px;
+    padding: 5px 10px;
+    display: block;
+    color: black;
+    background: red;
+    text-decoration: none;
+}
+.last-or-more-read-section-1 h5 {
+    background: green;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+img {
+    width: 100%;
+}
+.section-3 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.full-box {margin: auto;display: 
+    flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.section-box-full {
+    width: 19%;
+}
+
+.section-box {
+    width: 80%;
+}
+
+.section-box-1 img {
+    max-width: 100%;
+}
+
+.section-box-1 {
+    width: 32%;
+}
+.section-box-1 h1 {
+    font-size: 15px;
+}
+.section-box-1 h1 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: .5rem;
+    background: rgba(0,0,0,0.5);
+}
+
+.section-box-1 {
+    position: relative;
+}
+.section-box h5 {
+    font-size: 20px;
+    background: green;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.section-4 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+
+.section-item-1 {
+    width: 80%;
+}
+
+.section-item-2 {
+    width: 20%;
+}
+.section-itrm-full {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.section-item-photo {
+        width: 32%;
+        }
+   
+    .section-item-text h1 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: .5rem;
+    background: rgba(0,0,0,0.5);
+}
+.section-item-1 h5 {
+    font-size: 20px;
+    background: green;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.section-5 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Politics-box-1 {
+    width: 80%;
+}
+
+.Politics-box-2 {
+    width: 19%;
+}
+
+
+
+.Politics-box-logo {
+    width: 48%;
+}
+
+.Politics-box-text {
+    width: 48%;
+}
+
+
+
+.Politics-box-text-item {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+        border-bottom: 1px dashed gray;
+}
+
+.Politics-box-text-item h5 {
+    font-size: 23px;
+    gap: 10px;
+}
+.Politics-box-item {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Politics-box-1 h1 {
+    font-size: 20px;
+    background: green;
+    padding: 8px;
+}
+.politics-item h2 {
+    font-size: 26px;
+    color: black;
+    border-bottom: 1px dashed gray;
+    padding: 8px;
+}
+
+.politics-item h3 {
+    font-size: 18px;
+    padding-top: 19px;
+   border-bottom: 1px dashed gray;
+    padding: 10px 0;
+}
+
+.politics-item h4 {
+    font-size: 20px;
+    padding-top: 20px;
+    /* border-bottom: 1px solid red; */
+}
